@@ -3,7 +3,7 @@
 ## Running the project locally 🚀
 
 ### To install dependencies:
-npm install
+npm install &
 ng serve
 ### Then open your browser at:
 http://localhost:4200
