@@ -1,0 +1,59 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+input, button {
+  padding: 8px;
+  font-size: 1rem;
+}
+
+.todo-item {
+  background: #f8f8f8;
+  padding: 16px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.bar-wrapper {
+  width: 100%;
+  background-color: #ddd;
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.bar-fill {
+  height: 100%;
+  transition: width 0.3s ease;
+}
+
+.progress-line {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.progress-text {
+  min-width: 200px;
+  font-size: 0.95rem;
+}
+
+.bar-wrapper.inline {
+  flex: 1;
+  background-color: #ddd;
+  height: 16px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.bar-fill {
+  height: 100%;
+  transition: width 0.3s ease;
+}
